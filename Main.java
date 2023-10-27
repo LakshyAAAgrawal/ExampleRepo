@@ -1,10 +1,6 @@
 // A class that contains the main method to test the code sample
 public class Main {
      public static void main(String[] args){
-        // Create some person objects
-        Person p1 = new Person("Alice");
-        Person p2 = new Person("Bob");
-        
         // Create some student objects
         Student s1 = new Student("Charlie", 1001);
         Student s2 = new Student("David", 1002);
@@ -16,6 +12,10 @@ public class Main {
         // Create an array of students for each course
         Student[] mathStudents = {s1, s2};
         Student[] englishStudents = {s1};
+
+        // Create some person objects
+        Person p1 = new Student("Alice", 10);
+        Person p2 = new Teacher("Bob", "Science");
         
         // Create some course objects
         Course c1 = new Course("Math 101", t1, mathStudents);
